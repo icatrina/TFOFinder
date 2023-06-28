@@ -1,0 +1,8 @@
+Requirements for running TFOFinder on Mac:
+
+1. You need Python 3.x (with pandas, Biopython < 1.76: first try to run "setup.py"; if their installation fails please do a manual installation)
+
+2. Open a terminal window and run:
+$ python3 C:/[path for tfofinder_mac]/tfofinder_mac.py
+
+#for additional help email iecatrina@gmail.com

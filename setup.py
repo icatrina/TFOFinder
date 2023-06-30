@@ -9,7 +9,7 @@ setup(name='TFOFinder',
       license='Yeshiva University',
       #packages=['TFOFinder'],
       install_requires=[
-          'pandas', 'Biopython<1.76'],
+          'pandas', 'Biopython<1.79'],
 
 
       zip_safe=False,

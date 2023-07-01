@@ -13,7 +13,7 @@ print('\x1B[3m TFOFinder\x1B[0m  Copyright (C) 2022  Irina E. Catrina' + '\n'+
 'under certain conditions; for details please read the GNU_GPL.txt file' + '\n')
 undscr = "->"*30
 print(undscr)
-print("\n"+"WARNING: Previous files will be overwritten!  Save them in a "+"\n"+"different location than the current input file, or rename them. "+"\n")
+print("\n"+"WARNING: Previous files will be overwritten or appended!  Save them in a "+"\n"+"different location than the current input file, or rename them. "+"\n")
 print(undscr)
 
 #filein = input("Enter the ct file path and name: ")
@@ -111,7 +111,7 @@ if __name__ == "__main__":
         for row in infile:
             if any(x in row for x in match):
                 strct += 1
-        print ('Number of Structures = '+str(strct))
+        print ('Number of Structures = '+str(strct) + ' ...Please wait...)
         mb_so = strct
     for lines in fileinput.FileInput(ct_file, inplace=1):
         lines2 = ",".join(lines.split())

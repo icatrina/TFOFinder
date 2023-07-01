@@ -228,6 +228,8 @@ if __name__ == "__main__":
     os.remove(mb_userpath+'\\'+fname+'_all_consecutives.csv')
     os.remove(mb_userpath+'\\'+fname+'_three_col2.csv')
     os.remove(mb_userpath+'\\'+fname+'_all_probes.csv')
+    os.remove(mb_userpath+'\\'+fname+'_all_consec_'+ str(probe)+'.csv')
+    os.remove(mb_userpath+'\\'+fname+'_final_'+str(probe)+'consec.txt')
     os.remove(mb_userpath+'\\'+fname+'_base_grouped.csv')
     os.remove(mb_userpath+'\\'+fname+'_sscount1.csv')
     os.remove(mb_userpath+'\\'+fname+'_test3.csv')

@@ -213,7 +213,7 @@ if __name__ == "__main__":
         reader2 = csv.reader(f, delimiter=",")
         writer = csv.writer(f2, lineterminator = '\n')
         writer.writerow(['Results for '+filein + ' using ' + str(probe) + ' as parallel TFO probe length'])
-        writer.writerow(['Start Position', '%GA', 'sscount', 'Paralell TFO Probe Sequence', 'Tm'])        
+        writer.writerow(['Start Position', '%GA', 'sscount', 'Parallel TFO Probe Sequence', 'Tm'])        
         for line in reader:
             y = int(line[0])-probe+1
             for row in reader2:

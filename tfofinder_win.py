@@ -13,7 +13,7 @@ print('\x1B[3m TFOFinder\x1B[0m  Copyright (C) 2022  Irina E. Catrina' + '\n'+
 'under certain conditions; for details please read the GNU_GPL.txt file' + '\n')
 undscr = "->"*30
 print(undscr)
-print("\n"+"WARNING: Previous files will be overwritten!  Save them in a "+"\n"+"different location than the current input file, or rename them to "+"\n")
+print("\n"+"WARNING: Previous files will be overwritten!  Save them in a "+"\n"+"different location than the current input file, or rename them. "+"\n")
 print(undscr)
 
 #filein = input("Enter the ct file path and name: ")

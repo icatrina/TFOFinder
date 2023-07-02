@@ -1,0 +1,7 @@
+Results for /Users/ficatrina/Downloads/TFOFinder/Example/input/67_ovo_RE.ct using 10 as parallel TFO probe length
+Start Position,%GA,sscount,Paralell TFO Probe Sequence,Tm
+331,100,0.18,CCCCCUUUUU,50
+393,100,0.95,UUUUUUUCUU,21
+5523,100,0.0,UUUUCUUUUU,21
+5524,100,0.0,UUUCUUUUUU,21
+5525,100,0.0,UUCUUUUUUU,21

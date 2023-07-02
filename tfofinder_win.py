@@ -10,8 +10,8 @@ print("\n"*5)
 print('\x1B[3m TFOFinder\x1B[0m  Copyright (C) 2022  Irina E. Catrina' + '\n'+
 'This program comes with ABSOLUTELY NO WARRANTY;'  + '\n' + 
 'This is free software, and you are welcome to redistribute it' + '\n'+
-'under certain conditions; for details please read the GNU_GPL.txt file' + '\n')
-undscr = "->"*30
+'under certain conditions; for details please read the GNU_GPL.txt file.' + '\n')
+undscr = "->"*40
 print(undscr)
 print("\n"+"WARNING: Previous files will be overwritten or appended!  Save them in a "+"\n"+"different location than the current input file, or rename them. "+"\n")
 print(undscr)

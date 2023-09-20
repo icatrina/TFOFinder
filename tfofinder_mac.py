@@ -111,7 +111,7 @@ if __name__ == "__main__":
         for row in infile:
             if any(x in row for x in match):
                 strct += 1
-        print ('Number of Structures = '+str(strct) + ' ...Please wait...)
+        print ('Number of Structures = '+str(strct) + ' ...Please wait...')
         mb_so = strct
     for lines in fileinput.FileInput(ct_file, inplace=1):
         lines2 = ",".join(lines.split())
